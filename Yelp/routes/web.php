@@ -18,3 +18,11 @@ Route::get('/', function () {
 Route::POST('/', function () {
     return view('welcome');
 });
+
+Route::get('/twilio', function () {
+    return view('twilio');
+});
+
+Route::POST('/twilio', function () {
+    return view('twilio');
+});
